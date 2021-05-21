@@ -1,0 +1,141 @@
+* {
+  padding: 0%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: linear-gradient(90deg, rgba(0, 0, 0) 0%, rgb(65, 65, 65) 100%);
+  color: white;
+  overflow: hidden;
+}
+button {
+  background-color: green;
+}
+.line {
+  top: 5%;
+  position: absolute;
+  height: 90%;
+  left: 20%;
+  width: 80%;
+  border-left: white 1px solid;
+}
+.Logo {
+  color: white;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.Logo:hover {
+  margin: 0% 0% 0% 5%;
+  transition: all 0.2s;
+}
+.button {
+  color: white;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 20%; /* 0 width - change this with JavaScript */
+  position: flex; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 15%; /* Place content 60px from the top */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.HEADING {
+  padding: 8px 8px 8px 32px;
+  padding-top: 75px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+.picture {
+  top: 200px;
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  z-index: 100;
+  border-radius: 50%;
+}
+.logout {
+  margin-top: 20%;
+  left: 38%;
+  top: 48%;
+  width: 25%;
+  position: relative;
+}
+.inputform input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+.inputform input[type="text"]:focus {
+  box-shadow: rgb(255, 255, 255) 10px 10px 5px;
+}
+.inputform {
+  position: relative;
+  left: 20%;
+}
+h2 {
+  color: #fff;
+}
+.inputbtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+}
+.tab thead td {
+  position: relative;
+  padding-left: 10px;
+}
+.tab tr td {
+  position: relative;
+  padding-left: 10px;
+}
